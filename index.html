@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bfit.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css ">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="columnas">
+            <div id="columna1">
+                <h2>B<span>fit</span>.</h2>
+                <ul class="leftnav">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="#"> Inicio</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-calendar"></i>
+                        <a href="#">Calendario</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-bar-chart"></i>
+                        <a href="#"> Actividad</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-apple"></i>
+                        <a href="#">Dieta</a>
+                    </li>
+                    </li>
+                    <li>
+                        <i class="fa fa-moon-o"></i>
+                        <a href="#">Sueño</a>
+                    </li>
+                    <li class="bg1">
+                        <i class="fa fa-cog fa-spin"></i>
+                        <a href="#"> Configuraciones</a>
+                    </li>
+                    <li class="exit">
+                        <i class="fa fa-sign-out"></i>
+                        <a href="#">Salir</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div id="columna2" class="bg">
+
+                <h3>Configuración</h3>
+                <img class="linea" src="img/Line 10.png" alt="">
+                <ul class="centernav">
+                    <li class="content-center">
+                        <button class="navblink " onclick="openCity(event, 'apariencia')">
+                            <i class="fa fa-heart-o first"></i> Apariencia  
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>Modo Oscuro / Claro</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'Cuenta')">
+                            <i class="fa fa-user-o two "></i> Mi Cuenta
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>Información del perfíl / Información personal</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'notificaciones')">
+                            <i class="fa fa-bell-o tree"></i>Notificaciones
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>Alertas</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'seguridad')">
+                            <i class="fa fa-lock four "></i>Seguridad
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>Cambiar contraseña</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'pago')">
+                            <i class="fa fa-credit-card-alt five"></i>Pago
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>Añadir metodo de Pago</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'nosotros')">
+                            <i class="fa fa-users six"></i>Sobre Nosotros
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>¿Quienes Somos?</p>
+                        <img src="img/Line 10.png" alt="">
+                    </li>
+
+                    <li class="content-center mgt">
+                        <button class="navblink  " onclick="openCity(event, 'ayuda')">
+                            <i class="fa fa-info-circle seven "></i>Ayuda
+                        </button>
+                        <div class="vector">
+                            <img class="" src="img/Vector (4).png" alt="">
+                        </div>
+                        <p>¿Necesitas Ayuda?</p>
+                        <img src="img/Line 10.png" alt="">
+
+                    </li>
+
+                </ul>
+            </div>
+
+            <img src="img/Line 8.png" alt="">
+            <div id="columna3" class="bg">
+
+                <div id="Cuenta" class="tabcontent">
+                    <h2>Mi Cuenta</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+
+                    <form>
+                        <div class="block-1">
+                            <div class="content-form">
+                                <h4>Perfíl</h4>
+
+                                <p>Nombre</p>
+                                <input type="text" placeholder="Tu nombre">
+
+                                <p>Nombre de Usuario</p>
+                                <input type="text" placeholder="Tu nombre de usuario">
+
+                            </div>
+
+                            <div class="content-form">
+                                <p>Apellido</p>
+                                <input type="text" placeholder="Tu apellido">
+
+                                <p>Correo Electronico</p>
+                                <input type="email" placeholder="Tu correo electronico">
+
+                            </div>
+
+                        </div>
+                        <img class="div-2" src="img/Divider.png" alt="">
+                        <div class="block-2">
+
+                            <div class="content-form">
+                                <h4>Información Personal</h4>
+                                <p>Fecha de Nacimiento</p>
+                                <input type="date" placeholder="Tu nombre">
+
+                                <p>País</p>
+                                <select name="país">
+                                    <option>Argentina</option>
+                                    <option>España</option>
+                                    <option>México</option>
+                                    <option>Guatemala</option>
+                                    <option>Honduras</option>
+                                    <option>El Salvador</option>
+                                    <option>Venezuela</option>
+                                    <option>Colombia</option>
+                                    <option>Cuba</option>
+                                    <option>Bolivia</option>
+                                    <option>Perú</option>
+                                    <option>Ecuador</option>
+                                    <option>Paraguay</option>
+                                    <option>Uruguay</option>
+                                    <option>Chile</option>
+                            
+                                </select>
+                            </div>
+
+
+
+                            <div class="content-form">
+
+                                <p>Número de Teléfono</p>
+                                <input class="i-4" type="tel" placeholder="Tu número de Teléfono">
+
+                                <p class="idioma">Idioma</p>
+                                <select name="pais">
+                                    <option>Español</option>
+                                    <option>English</option>
+                                    <option>Francés</option>
+                                    <option>Portugués</option>
+                                    <option>Chino</option>
+                                    <option>Árabe</option>
+                                    <option>Ruso</option>
+                            
+                                </select>
+
+
+
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="botones">
+                        <a class="btn izq" href="#">Cancelar</a>
+                        <a class="btn der" href="#">Guardar Cambios</a>
+                    </div>
+
+                </div>
+
+
+                <div class="tabcontent fijo">
+                    <div class="loader">
+                        <div class="loader__bar"></div>
+                        <div class="loader__bar"></div>
+                        <div class="loader__bar"></div>
+                        <div class="loader__bar"></div>
+                        <div class="loader__bar"></div>
+                        <div class="loader__ball"></div>
+                    </div>
+
+
+                </div>
+
+                <div id="apariencia" class="tabcontent">
+                    <h2>Apariencia</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="apariencia">
+                        <i class="fa fa-heart-o"></i>
+
+                    </div>
+                </div>
+                <div id="notificaciones" class="tabcontent">
+                    <h2>Notificaciones</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="notificaciones">
+                        <i class="fa fa-bell-o"></i>
+                    </div>
+                </div>
+                <div id="seguridad" class="tabcontent">
+                    <h2>Seguridad</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="seguridad">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                </div>
+                <div id="pago" class="tabcontent">
+                    <h2>Pago</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="pago">
+                        <i class="fa fa-credit-card-alt"></i>
+                    </div>
+                </div>
+                <div id="nosotros" class="tabcontent">
+                    <h2>Nosotros</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="nosotros">
+                        <i class="fa fa-users"></i>
+                    </div>
+                </div>
+                <div id="ayuda" class="tabcontent">
+                    <h2>Ayuda</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img class="div-1" src="img/Divider.png" alt="">
+                    <div class="ayuda">
+                        <i class="fa fa-info-circle"></i>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+</body>
+<script src="js/main.js"></script>
+
+
+</html>
