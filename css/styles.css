@@ -1,10 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-.container {
-    width: 1440px;
-    height: 900;
     margin: 0px;
     padding: 0px;
 }
@@ -15,8 +10,9 @@
 
 #columna1 {
     display: block;
-    width: 20%;
+    width: 240px;
     background-color: #1f1d2b;
+    height: 1025px;
 }
 
 #columna1 h2 {
@@ -25,12 +21,10 @@
     font-size: 36px;
     font-weight: 800;
     line-height: 24px;
-    position: relative;
     width: 56px;
     height: 24px;
-    left: 38px;
-    top: 8px;
     color: #fff;
+    margin: 40px 0 0 25px;
 }
 
 #columna1 span {
@@ -38,10 +32,7 @@
 }
 
 .leftnav {
-    position: relative;
-    top: 100px;
-    margin: 0px;
-    padding: 0px;
+    margin-top: 100px;
 }
 
 .leftnav li {
@@ -85,12 +76,9 @@
 
 #columna2 {
     display: block;
-    width: 30%;
-}
-
-.bg {
+    width: 400px;
+    height: 1025px;
     background-color: #252836;
-    height: 1024px;
 }
 
 #columna2 h3 {
@@ -101,16 +89,27 @@
     color: #fff;
     font-weight: 800;
     line-height: 39px;
-    position: relative;
-    left: 64px;
-    top: 30px;
+    padding: 50px 0px 20px 54px;
 }
 
 .linea {
+    margin: 40px 0 0 52px;
+}
+
+.vector {
+    position: relative;
+    left: 365px;
+    top: -57px;
+}
+
+.lineas {
     position: relative;
     left: 41px;
-    top: 20px;
-    width: 391px;
+    top: -12px;
+}
+
+.mgt {
+    margin-top: -15px;
 }
 
 .centernav {
@@ -121,12 +120,6 @@
     list-style: none;
 }
 
-.content-center {
-    height: 80px;
-    padding: 30px 0px;
-    margin-bottom: 2px;
-}
-
 .content-center button {
     background-color: transparent;
     outline: none;
@@ -135,78 +128,54 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-}
-
-.content-center .vector img {
-    position: relative;
-    left: 360px;
-    top: -18px;
-    width: 6.58px;
-}
-
-.content-center img {
-    position: relative;
-    top: -45px;
-    width: 391px;
-    left: 41px;
+    width: 400px;
+    height: 80px;
+    text-align: left;
+    padding-left: 56px;
 }
 
 .content-center button i {
     padding-right: 15px;
-    padding-left: 40px;
 }
 
-.content-center p {
-    position: relative;
-    left: 43px;
-    top: -25px;
+.content-center span {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;
+    line-height: 140%;
     color: #ABBBC2;
+    padding-left: 35px;
 }
 
-.content-center:hover {
-    background: #357DED;
+span.apa {
+    padding-left: 37px;
+}
+
+span.segu {
+    padding-left: 28px;
+}
+
+span.ayu {
+    padding-left: 29px;
+}
+
+span.pag {
+    padding-left: 38px;
 }
 
 .content-center button:hover {
-    cursor: pointer;
     background: #357DED;
 }
 
-.content-center button.active i.first {
-    color: rgb(247, 46, 46);
-}
-
-.content-center button.active i.two {
-    color: rgb(104, 167, 250);
-}
-
-.content-center button.active i.tree {
-    color: yellow;
-}
-
-.content-center button.active i.four {
-    color: goldenrod;
-}
-
-.content-center button.active i.five {
-    color: #357DED;
-}
-
-.content-center button.active i.six {
-    color: rgb(104, 167, 250);
-}
-
-.content-center button.active i.seven {
-    color: gray;
+.content-center button.active {
+    background-color: #357DED;
 }
 
 #columna3 {
     display: block;
-    width: 50%;
+    width: 800px;
+    background-color: #252836;
 }
 
 .tabcontent {
@@ -217,10 +186,11 @@
     display: block;
 }
 
-.tabcontent h2 {
-    position: absolute;
-    top: 38px;
-    left: 750px;
+.encabezado {
+    padding: 50px 0px 0px 54px;
+}
+
+.encabezado h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 500;
@@ -228,43 +198,16 @@
     line-height: 39px;
 }
 
-.tabcontent .texto {
-    position: absolute;
-    left: 750px;
-    top: 82px;
+.encabezado .texto {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #ABBBC2;
 }
 
-.tabcontent .div-1 {
-    position: relative;
-    top: 123.5px;
-    left: 30px;
-    width: 665px;
-}
-
-#Cuenta form {
-    position: absolute;
-    top: 145px;
-    left: 752px;
-}
-
-.block-1 .content-form:last-child {
-    position: relative;
-    top: 69.5px;
-    left: 10px;
-}
-
-.block-2 .content-form:last-child {
-    position: relative;
-    top: 70.9px;
-    left: 10px;
-}
-
-.block-2 .content-form input:nth-child(2) {
-    padding: 20px !important;
+.encabezado .div-1 {
+    width: 620px;
+    margin-top: 38px;
 }
 
 .block-1,
@@ -272,25 +215,40 @@
     display: flex;
 }
 
+.content-form2 {
+    margin-top: 53px;
+    margin-left: 20px;
+}
+
+#Cuenta form {
+    position: absolute;
+    top: 180px;
+    left: 674px;
+}
+
 .content-form h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
+    margin-bottom: 28px;
 }
 
-.content-form p {
+.content-form p,
+.content-form2 p {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #fff;
+    margin-bottom: 7px;
 }
 
-.content-form input {
+.content-form input,
+.content-form2 input {
     margin-bottom: 20px;
     padding: 18px;
-    width: 330px;
+    width: 310px;
     border: 1px solid #393C49;
     box-sizing: border-box;
     border-radius: 8px;
@@ -303,12 +261,12 @@
 }
 
 .div-2 {
-    width: 665px;
+    width: 620px;
 }
 
 .block-2 select {
     padding: 18px;
-    width: 330px;
+    width: 310px;
     outline: none;
     border: 1px solid #393C49;
     border-radius: 8px;
@@ -319,6 +277,63 @@
     font-size: 14px;
 }
 
+input[type="date"] {
+    padding: 16.3px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.block-2 .content-form2 input:nth-child(2) {
+    margin-bottom: 22px;
+}
+
+.botones {
+    position: absolute;
+    top: 850px;
+    width: 640px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    left: 665px;
+}
+
+.btn {
+    padding: 17px;
+    border: 1px solid #357DED;
+    border-radius: 8px;
+    width: 310px;
+    margin-left: 20px;
+}
+
+.izq:hover {
+    box-shadow: 0px 8px 24px rgba(53, 125, 237, 0.3);
+}
+
+.der {
+    background-color: #357DED;
+}
+
+.der:hover {
+    box-shadow: 0px 8px 24px rgba(53, 125, 237, 0.3);
+}
+
+.botones a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
 .tabcontent i {
     font-size: 300px;
     color: red;
@@ -326,7 +341,6 @@
     top: 350px;
     left: 900px;
     animation: bounce 1s infinite;
-    /* creamos la animacion para brincar */
 }
 
 @keyframes bounce {
@@ -343,7 +357,6 @@
     59% {
         transform: translateY(-25px);
     }
-    /* le decimos com hacerlo y cada cuanto con keyframes */
 }
 
 .notificaciones i {
@@ -366,36 +379,4 @@
 .ayuda i {
     color: gray;
     left: 950px;
-}
-
-.botones {
-    position: absolute;
-    top: 900px;
-    width: 650px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 140%;
-    display: flex;
-    left: 750px;
-}
-
-.btn {
-    padding: 13px 30px;
-    border: 1px solid #357DED;
-    border-radius: 8px;
-    width: 320px;
-    margin-left: 10px;
-}
-
-.btn:hover {
-    background-color: #357DED;
-    box-shadow: 0px 8px 24px rgba(53, 125, 237, 0.3);
-}
-
-.botones a {
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
 }
